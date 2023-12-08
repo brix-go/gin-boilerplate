@@ -1,0 +1,34 @@
+{
+  "0200": {"responseVar": "SuccessResponse", "responseMessage": "Success", "httpStatusCode":"200"},
+
+  "0201": {"responseVar": "ErrCodeFailCreateUser", "responseMessage": "Failed to create user", "httpStatusCode":"400"},
+  "0202" : {"responseVar": "ErrCodeFailUpdateUser", "responseMessage":"Failed to update user", "httpStatusCode":"400"},
+  "0203" : {"responseVar": "ErrCodeFailDeleteUser", "responseMessage": "Failed to delete user", "httpStatusCode":"400"},
+
+  "0301": {"responseVar": "ErrCodeFailCreateSubmission", "responseMessage": "Failed to create submission", "httpStatusCode":"400"},
+
+  "401": {"responseVar": "Unauthorized", "responseMessage": "unauthorized", "httpStatusCode":"401"},
+  "0402" : {"responseVar": "ErrCodeFailUpdatePartner", "responseMessage":"Failed to update partner", "httpStatusCode":"400"},
+  "0503" : {"responseVar": "ErrFileLarge", "responseMessage":"file too large, size must 5 MB", "httpStatusCode":"400"},
+  "0504" : {"responseVar": "ErrInvalidFile", "responseMessage": "please upload a PDF or ZIP file", "httpStatusCode":"400"},
+  "0505" : {"responseVar": "ErrFileEmpty", "responseMessage": "file is empty or null", "httpStatusCode":"400"},
+  "0506": {"responseVar": "ErrUnavailableService", "responseMessage": "service unavailable", "httpStatusCode":"400"},
+  "0507": {"responseVar": "ErrInvalidParam", "responseMessage": "invalid input param", "httpStatusCode":"400"},
+  "0509": {"responseVar": "ErrDataNotExist", "responseMessage":" data does not exist", "httpStatusCode":"404"},
+  "0510": {"responseVar": "ErrUnexpectedError", "responseMessage": "Unexpected Error", "httpStatusCode":"500"},
+  "0511": {"responseVar": "ErrInvalidAccount", "responseMessage": "Invalid Account", "httpStatusCode":"400"},
+  "0512": {"responseVar": "ErrInactiveAccount", "responseMessage": "Inactive Account", "httpStatusCode":"400"},
+  "0513": {"responseVar": "ErrTimeOut", "responseMessage": "Time Out", "httpStatusCode":"504"},
+  "0514": {"responseVar": "ErrInvalidRequestFamily", "responseMessage": "Invalid Request", "httpStatusCode":"400"},
+  "0515": {"responseVar": "ErrInvalidFieldFormat", "responseMessage": "Invalid Field Format %v", "httpStatusCode":"400"},
+
+  "0516": {"responseVar": "ErrInvalidFieldMandatory", "responseMessage": "Invalid Mandatory Field %v", "httpStatusCode":"400"},
+  "0517" : {"responseVar": "ErrCodeEmptyParameter", "responseMessage": "Empty parameter", "httpStatusCode":"400"},
+  "0518": {"responseVar": "ErrDocStatus", "responseMessage": "document status %s does not have request status Berhasil", "httpStatusCode":"400"},
+  "0519": {"responseVar": "ErrInvalidMinFieldFormat", "responseMessage": "Invalid Minimum Length Field Format %v", "httpStatusCode":"400"},
+
+
+  "0601": {"responseVar": "ErrCodeFailCreateProduct", "responseMessage": "Failed to create product", "httpStatusCode":"400"}
+
+
+}
